@@ -1,4 +1,7 @@
+code.gitea.io/gitea v1.19.0 h1:YoXejoZ+VV2VZ2f+0MgQnkVHSJ4wBXhFfC6+14qwidA=
 code.gitea.io/gitea-vet v0.2.1/go.mod h1:zcNbT/aJEmivCAhfmkHOlT645KNOf9W2KnkLgFjGGfE=
+code.gitea.io/gitea/modules/structs v0.0.0-20190610152049-835b53fc259c h1:WwxK+8qmKYgU2pfcbCeRSqKwEPeHnW/sfmNc6pjLZC8=
+code.gitea.io/gitea/modules/structs v0.0.0-20190610152049-835b53fc259c/go.mod h1:e/Ukqo229PbsSEymXfLWmNz4g04hwnFml5lW6U+0Azs=
 code.gitea.io/sdk v0.11.0 h1:R3VdjBCxObyLKnv4Svd/TM6oGsXzN8JORbzgkEFb83w=
 code.gitea.io/sdk/gitea v0.15.1 h1:WJreC7YYuxbn0UDaPuWIe/mtiNKTvLN8MLkaw71yx/M=
 code.gitea.io/sdk/gitea v0.15.1/go.mod h1:klY2LVI3s3NChzIk/MzMn7G1FHrfU7qd63iSMVoHRBA=
