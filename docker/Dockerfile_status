@@ -1,0 +1,12 @@
+FROM docker.io/library/debian:latest as builder
+
+RUN apt update && apt install -y golang ca-certificates
+
+COPY . /source
+
+RUN cd /source && go build -o /j7s-gitea-status cmd/j7s-gitea-status/main.go
+
+FROM docker.io/library/debian:latest
+RUN apt update && apt install -y ca-certificates
+COPY --from=builder /j7s-gitea-status /j7s-gitea-status
+
