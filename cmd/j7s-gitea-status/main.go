@@ -47,6 +47,9 @@ func main() {
 	if !ok {
 		log.Fatal("Status must be a valid string.")
 	}
+	if *description == "" {
+		log.Fatal("Must provide a description.")
+	}
 
 	clientOpt := gitea.SetToken(token)
 	client, err := gitea.NewClient(url, clientOpt)
